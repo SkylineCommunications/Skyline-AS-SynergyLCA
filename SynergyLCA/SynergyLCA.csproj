@@ -11,6 +11,9 @@
 		<VersionComment>Initial Version</VersionComment>
 	</PropertyGroup>
 	<ItemGroup>
+	  <None Include="SynergyLCA.sln" />
+	</ItemGroup>
+	<ItemGroup>
 		<PackageReference Include="Skyline.DataMiner.Dev.Automation" Version="10.3.0.25" />
 		<PackageReference Include="Skyline.DataMiner.Utils.SecureCoding.Analyzers" Version="2.0.5">
 			<PrivateAssets>all</PrivateAssets>
