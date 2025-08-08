@@ -11,7 +11,8 @@
 		<CodeAnalysisRuleSet>..\Internal\Code Analysis\qaction-release.ruleset</CodeAnalysisRuleSet>
 	</PropertyGroup>
 	<ItemGroup>
-		<AdditionalFiles Include="..\Internal\Code Analysis\stylecop.json">
+		<!--<AdditionalFiles Include="..\Internal\Code Analysis\stylecop.json">-->
+		<AdditionalFiles Include="C:\GIT\Skyline-AS-SynergyLCA\SynergyLCA\Internal\Code Analysis\stylecop.json">
 			<Link>Properties\stylecop.json</Link>
 		</AdditionalFiles>
 		<Content Include="..\.editorconfig">
