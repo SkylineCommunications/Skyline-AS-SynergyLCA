@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynergyLCA", "SynergyLCA\SynergyLCA.csproj", "{F6FE9C4B-9682-4C1D-AF39-F17AF828A163}"
 EndProject
@@ -17,6 +17,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynergyCreateSprint", "SynergyCreateSprint\SynergyCreateSprint.csproj", "{5F8D201D-374E-4283-AF8B-111464427F36}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynergyFinishSprint", "SynergyFinishSprint\SynergyFinishSprint.csproj", "{0316281E-A599-433F-8B19-CE433B747409}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{592CFDE1-7C88-4B5B-80C3-1D81B40E72C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{F6FE9C4B-9682-4C1D-AF39-F17AF828A163} = {592CFDE1-7C88-4B5B-80C3-1D81B40E72C7}
 		{5BC67843-4EAD-4240-B51E-6F818B8AA003} = {E76916BB-44C9-466F-8DB3-7937C14E59B6}
+		{5F8D201D-374E-4283-AF8B-111464427F36} = {592CFDE1-7C88-4B5B-80C3-1D81B40E72C7}
+		{0316281E-A599-433F-8B19-CE433B747409} = {592CFDE1-7C88-4B5B-80C3-1D81B40E72C7}
 	EndGlobalSection
 EndGlobal
